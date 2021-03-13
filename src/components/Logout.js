@@ -8,7 +8,7 @@ const Logout = () => {
     }
   
     return (
-      <div >
+      <div className="ce-chat-logout">
         <Button type='primary' shape="round" icon={<LogoutOutlined />} size="large" onClick={logOutUser}>Logout</Button>
       </div>
     );
